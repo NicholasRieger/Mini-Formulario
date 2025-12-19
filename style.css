@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    min-height: 100vh;
+    /* fallback universal */
+    min-height: 100svh;
+    /* Safari/iOS: viewport “pequena” estável */
+    min-height: 100dvh;
+    /* modernos: viewport dinâmica (ajusta com barra) */
+    overflow-x: hidden;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: beige;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 5px rgb(164, 164, 136);
+}
+
+.container h1{
+    margin-bottom: 8px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+

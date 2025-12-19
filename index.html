@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mini Formulário</h1>
+        <form action="">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" required placeholder="Digite seu nome">
+            <label for="idade">Idade:</label>
+            <input type="number" name="idade" id="idade" required min="1" max="130" placeholder="Digite sua idade">
+            <label for="cidade">Cidade:</label>
+            <input type="text" name="cidade" id="cidade" required placeholder="Digite sua cidade">
+            <button type="submit">Enviar</button>
+        </form>
+        <p class="card"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
